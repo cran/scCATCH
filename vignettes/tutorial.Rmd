@@ -1,8 +1,13 @@
 ---
-title: "tutorial"
-output: rmarkdown::html_vignette
+title: "scCATCH tutorial"
+author: "Xin Shao"
+date: "`r Sys.Date()`"
+output:
+  prettydoc::html_pretty:
+    theme: cayman
+    highlight: github
 vignette: >
-  %\VignetteIndexEntry{tutorial}
+  %\VignetteIndexEntry{scCATCH tutorial}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
@@ -21,7 +26,7 @@ The scCATCH mainly includes two function `findmarkergene` and `findcelltype` to 
 scCATCH can be used to annotate scRNA-seq data from tissue with cancer and without cancer.
 
 ### General usage
-[1] For scRNA-seq data, we suggest to revise the gene symbols with `rev_gene()`. `geneinfo` is the system data.frame containing the information of human and mouse from NCBI gene(updated in Jan. 2, 2022). To use your own `geneinfo` data.frame, please refer to `demo_geneinfo` to build a new one, e.g., rat, zebrafish, Drosophila, C. elegans, etc.
+[1] For scRNA-seq data, we suggest to revise the gene symbols with `rev_gene()`. `geneinfo` is the system data.frame containing the information of human and mouse from NCBI gene(updated in June. 19, 2022). To use your own `geneinfo` data.frame, please refer to `demo_geneinfo` to build a new one, e.g., rat, zebrafish, Drosophila, C. elegans, etc.
 
 ```{r setup, echo=TRUE}
 library(scCATCH)
