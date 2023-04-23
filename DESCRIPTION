@@ -2,7 +2,7 @@ Package: scCATCH
 Type: Package
 Title: Single Cell Cluster-Based Annotation Toolkit for Cellular
         Heterogeneity
-Version: 3.2.1
+Version: 3.2.2
 Depends: R (>= 4.0.0)
 Author: Xin Shao
 Maintainer: Xin Shao<xin_shao@zju.edu.cn>
@@ -14,8 +14,8 @@ LazyData: true
 RoxygenNote: 7.1.2
 Suggests: rmarkdown, knitr, testthat, prettydoc
 VignetteBuilder: knitr
-Imports: Matrix, methods, progress, stats, crayon, reshape2
+Imports: Matrix, methods, progress, stats, reshape2
 NeedsCompilation: no
-Packaged: 2022-11-07 05:50:31 UTC; 61046
+Packaged: 2023-04-23 13:07:07 UTC; 61046
 Repository: CRAN
-Date/Publication: 2022-11-07 08:40:02 UTC
+Date/Publication: 2023-04-23 14:30:02 UTC
